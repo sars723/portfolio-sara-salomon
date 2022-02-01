@@ -1,0 +1,17 @@
+footer {
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer div {
+  margin-bottom: 2rem;
+}
+footer h5 {
+  font-size: 1.7rem;
+}
+footer p {
+  font-size: 1.4rem;
+}
+@media (max-width) {
+}

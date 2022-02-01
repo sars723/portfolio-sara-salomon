@@ -1,0 +1,89 @@
+.about {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.about .about-image {
+  flex: 1 1 41rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .about-image img {
+  width: 70%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.about .about-content {
+  flex: 1 1 41rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about .about-content h1 {
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  padding: 2rem 0;
+  color: var(--black);
+  text-shadow: 0.2rem 0.1rem rgba(0, 0, 0, 0.7);
+  line-height: 1;
+  /* animation: fadeIn 0.8s cubic-bezier(0.54, 1.3, 0.63, 1.34) 0.4s backwards; */
+}
+.about .about-desc {
+  font-size: 1.7rem;
+  color: var(--light-black);
+  padding: 1rem 0;
+  line-height: 2;
+}
+.about .about-content .about-contact {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.about .about-content .about-contact .MuiSvgIcon-root {
+  color: #1a1a1a;
+  width: 2em;
+  height: 2em;
+  padding: 0 0 0.3em 0;
+}
+
+.about .about-download-cv {
+  margin-top: 4rem;
+}
+.about .about-download-cv .download-cv-btn {
+  color: var(--light-black);
+  font-weight: 500;
+  font-size: 1.7rem;
+  padding: 0.8em 1.4em;
+  border: 2px solid #7e7e7e;
+  border-radius: 30px;
+  text-transform: lowercase;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+.about .about-download-cv .download-cv-btn:hover {
+  color: #fff;
+  background-color: var(--black);
+  border-color: var(--black);
+}
+
+@media (max-width: 600px) {
+  .about {
+    margin-top: 8rem;
+  }
+  .about .about-content h1 {
+    font-size: 3rem;
+  }
+  .about .about-desc {
+    font-size: 1.2rem;
+    color: var(--light-black);
+    padding: 1rem 0.5rem;
+    line-height: 2;
+  }
+  .about .about-download-cv .download-cv-btn {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+}

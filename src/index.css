@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&family=Work+Sans:wght@300&display=swap");
+
+:root {
+  --white: #fff;
+  --green: #27ae60;
+  --fire: #9b5936;
+  --black: #192a56;
+  --light-color: #666;
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background: #fcfcfc;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+section {
+  padding: 10%;
+}
+@media (max-width: 600px) {
+  section {
+    padding: 5%;
+  }
+}

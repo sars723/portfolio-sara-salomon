@@ -1,0 +1,31 @@
+.skills {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.skills .skills-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.skills .skills-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills .skills-list img {
+  width: 9rem;
+  margin: 2rem 5rem;
+}
+@media (max-width: 600px) {
+  .skills .skills-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .skills .skills-list img {
+    width: 5rem;
+    margin: 2rem 2rem;
+  }
+}
