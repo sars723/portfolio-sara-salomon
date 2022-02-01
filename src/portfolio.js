@@ -11,7 +11,7 @@ import typescript from "./assets/images/typescript.jfif";
 import gitHub from "./assets/images/github.png";
 
 const header = {
-  portfolioCode: "https://https://github.com/sars723/portfolio-sara-salomon",
+  portfolioCode: "https://github.com/sars723/portfolio-sara-salomon.git",
   title: "Sara.",
 };
 
